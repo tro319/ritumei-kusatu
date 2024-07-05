@@ -1,0 +1,2094 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body {
+   overflow-x: hidden; 
+}
+
+/* header
+===================== */
+
+/* header 左側の部分
+===================== */
+
+.header .header-left {
+    display: flex;
+    background-color: #FFF;
+    padding: 15px 50px;
+}
+
+.header .header-left h1 .sub-title {
+    font-size: 15px;
+}
+
+.header .header-left h1 {
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+
+.header .header-left .header-logo img {
+    position: relative;
+    top: 10px;
+    width: 55px;
+}
+
+/* header 右側のOPEN EVENTのボタン部分
+===================== */
+
+.header .event-link {
+    position: absolute;
+    top: 85px;
+    right: 0;
+    background: linear-gradient(90deg, rgb(201, 255, 150), rgb(71, 130, 200), rgb(71, 130, 246), rgb(71, 130, 200));
+    padding: 7px 25px 7px 55px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+    z-index: 3;
+}
+
+.header .event-link a {
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* main
+===================== */
+
+/* mainの一番上の部分
+===================== */
+
+#main1 {
+    height: 600px;
+    background: radial-gradient(circle at top left, yellow 1%, rgb(91, 198, 252) 20%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+}
+
+.main1-contents {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.main1-title {
+    font-weight: 800;
+    font-size: 30px;
+    color: #FFF;
+}
+
+
+.main1-img {
+    position: relative;
+    top: -350px;
+    margin-bottom: -350px;
+    left: 450px;
+}
+
+.main1-img img {
+    opacity: 0.6;
+}
+
+.main-en-title {
+    font-size: 10px;
+}
+
+
+/* mainの上から2番目の部分
+===================== */
+
+#main2 {
+    position: relative;
+    top: -300px;
+    margin-bottom: -300px;
+    height: 1200px;
+    background: linear-gradient(180deg, rgb(76, 137, 212) 20%, rgb(131, 250, 255) 80%);
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    text-align: center;
+}
+
+.main2-contents {
+    padding: 230px 80px;
+}
+
+.main2-title {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    color: #FFF;
+}
+
+.main-ja-title {
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    color: #FFF;
+    margin: 30px 0 60px 0;
+}
+
+
+/* mainの上から2番目の範囲内の、円形の図の設定
+===================== */
+
+.main2-bottom {
+    text-align: center;
+}
+
+.main2-bottom img {
+    max-width: 100%;
+    margin-top: -10px;
+    transform: scale(1.2);
+}
+
+
+/* main右下の散らばりの部分
+===================== */
+
+.main-contents-img1 {
+    position: relative;
+    top: -1100px;
+    margin-bottom: -1100px;
+    right: 500px;
+}
+
+.main-contents-img1 img {
+    opacity: 0.7;
+    width: 250px;
+}
+
+
+/* main円形の図の、左側のイラスト
+===================== */
+
+.main-contents-img2 {
+    position: relative;
+    top: -5900px;
+    left: 400px;
+}
+
+.main-contents-img2 img {
+    opacity: 0.6;
+    width: 250px;
+}
+
+
+/* main円形の図の、右側のイラスト
+===================== */
+
+.main-contents-img3 {
+    position: relative;
+    top: -6150px;
+    left: 1900px;
+}
+
+.main-contents-img3 img {
+    opacity: 0.6;
+    width: 250px;
+}
+
+
+/* mainの中で、目標と書かれた部分
+===================== */
+
+.main-contents-img4 {
+    text-align: center;
+    position: relative;
+    top: -70px;
+    margin-bottom: -70px;
+    z-index: 5;
+}
+
+
+
+.main-contents-img4 img {
+    width: 125px;
+}
+
+/* main、左上の散らばり
+===================== */
+
+.main-contents-img5 {
+    position: relative;
+    top: -300px;
+    margin-bottom: -670px;
+    left: 1750px;
+}
+
+.main-contents-img5 img {
+    opacity: 0.7;
+    width: 250px;
+}
+
+
+/* 三つのイラストと、目標と書かれたオブジェクトから斜線がある部分。
+===================== */
+
+#main3 {
+    position: relative;
+    top: 230px;
+    margin-bottom: -230px;
+    text-align: center;
+    background-image: url('../images/main3-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 900px;
+    z-index: -2;
+}
+
+.main3-contents {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.main3-contents li {
+    width: 48%;
+}
+
+.main3-contents li img {
+    opacity: 0.6;
+    width: 250px;
+}
+
+.main3-contents li:last-child {
+    position: relative;
+    top: -200px;
+    margin-bottom: -200px;
+    left: 670px;
+}
+
+.main3-contents li .main3-contents1-text,
+.main3-contents li .main3-contents2-text,
+.main3-contents li .main3-contents3-text {
+    font-weight: 800;
+    font-size: 24px;
+    color: #444;
+}
+
+.main3-contents li .main3-contents1-text .big,
+.main3-contents li .main3-contents2-text .big,
+.main3-contents li .main3-contents3-text .big {
+    font-size: 30px;
+}
+
+.main3-contents li .main3-contents1-text .small {
+    font-size: 15px;
+}
+
+
+/* main黄色のグラデーションの下の、青から水色のグラデーションの部分
+============================================= */
+
+
+#main4 {
+    position: relative;
+    top: 300px;
+    background: linear-gradient(180deg, #0088F1 20%, #7FE6D9 80%);
+    height: 1400px;
+}
+
+#main4 .main4-contents1 {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-bottom: 150px;
+}
+
+.main4-contents1-list1 {
+    margin-right: 60px;
+    list-style: none;
+}
+
+.main4-contents1-list1 li img {
+    width: 500px;
+}
+
+.main4-contents1-img1 {
+    position: relative;
+    top: 210px;
+    text-align: center;
+}
+
+.main4-contents1-img1 img {
+    width: 125px;
+}
+
+.main4-contents1-list2 {
+    position: relative;
+    top: 130px;
+    margin-left: 60px;
+    list-style: none;
+}
+
+.main4-contents1-list2 li img {
+    width: 500px;
+} 
+
+#main4 .main4-contents2-cover {
+    padding: 30px;
+}
+
+#main4 .main4-contents2 {
+    max-width: 1540px;
+    margin: 20px auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #747474;
+}
+
+
+
+#main4 .main4-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main4-inner dt {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.main4-inner dd {
+    font-size: 15px;
+    text-indent: 13rem;
+    margin-bottom: 10px;
+}
+
+
+/* open-eventからmainの最後までを囲む
+===================== */
+
+.main-last {
+    position: relative;
+    top: 300px;
+    margin-bottom: -300px;
+    background: radial-gradient(circle at top left, yellow 1%, rgb(91, 198, 252) 10%);
+    height: 3500px;
+    padding: 40px 0;
+    z-index: 2;
+}
+
+
+/* open-event
+===================== */
+
+#opening-event {
+    margin-bottom: 60px;
+    padding: 30px;
+}
+
+.opening-contents {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+.opening-title {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.opening-inner {
+    max-width: 1540px;
+    background-color: #FFF;
+    border-radius: 7px;
+    box-shadow: 3px 3px 6px #747474;
+}
+
+.opening-inner-title {
+    font-size: 18px;
+    background-color: #3C6FCF;
+    color: #FFF;
+    padding: 30px;
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 40px;
+}
+
+.opening-inner-img {
+    max-width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.opening-inner-img img {
+    width: 100%;
+}
+
+.opening-inner-text {
+    font-size: 15px;
+    padding: 30px;
+}
+
+.time-title {
+    margin-bottom: 30px;
+}
+
+.list-title {
+    padding-right: 10px;
+    border-right: 3px solid #7FE6D9;
+}
+
+.list-title2 {
+    padding-left: 10px;
+}
+
+
+/* open-eventの詳細ボタン部分
+===================== */
+
+.detail {
+    text-align: center;
+    display: block;
+}
+
+
+
+.detail a {
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, rgb(201, 255, 150), rgb(71, 130, 200), rgb(71, 130, 246), rgb(71, 130, 200));
+    border-radius: 20px;
+    margin: 60px auto 80px auto;
+}
+
+
+
+/* news
+===================== */
+
+#news {
+    margin-bottom: 60px;
+    padding: 30px;
+}
+
+.news-contents {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+.news-title {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.news-inner {
+    max-width: 1540px;
+    background-color: #FFF;
+    border-radius: 7px;
+    box-shadow: 3px 3px 6px #747474;
+}
+
+.news-inner-title {
+    font-size: 18px;
+    background-color: #3C6FCF;
+    color: #FFF;
+    padding: 30px;
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 40px;
+}
+
+.news-inner-img {
+    max-width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.news-inner-img img {
+    width: 100%;
+}
+
+.news-inner-text {
+    font-size: 15px;
+    padding: 30px;
+}
+
+
+/* open-eventとnewsの背景の、白い平行四辺形
+===================== */
+
+.parallelogram1 {
+    position: absolute;
+    width: 140%;
+    height: 500px;
+    transform: rotate(-5deg);
+    background: #FFF;
+    top: 600px;
+    left: -10%;
+    z-index: -1;
+}
+
+.parallelogram2 {
+    position: absolute;
+    width: 140%;
+    height: 400px;
+    transform: rotate(-5deg);
+    background: #FFF;
+    top: 2050px;
+    left: -10%;
+    z-index: -1;
+}
+
+
+/* newsの下の部分
+===================== */
+
+
+
+#news-add {
+    margin-bottom: 60px;
+    padding: 30px;
+}
+
+.news-add-contents {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+.news-add-inner {
+    max-width: 1540px;
+    background-color: #3C6FCF;
+    border-radius: 30px;
+    padding: 30px 60px;
+}
+
+.news-add-inner-text {
+    font-size: 15px;
+    color: #FFF;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* お問い合わせボタン部分
+===================== */
+
+#form-btn {
+    text-align: center;
+    display: block;
+}
+
+#form-btn a {
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, rgb(201, 255, 150), rgb(71, 130, 200), rgb(71, 130, 246), rgb(71, 130, 200));
+    border-radius: 20px;
+    margin: 60px auto 80px auto;
+}
+
+
+/* footer
+===================== */
+
+.footer {
+    position: relative;
+    top: 60px;
+    background-color: #FFF;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* footerのロゴと、〇〇社団を囲む
+===================== */
+
+.footer-contents {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo {
+    position: relative;
+    top: -25px;
+    margin-right: 30px;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+/* footerの、住所・電話番号などの管理者情報記載部分
+===================== */
+
+.footer-info {
+    font-size: 15px;
+    margin: 20px auto;
+}
+
+.footer-info p {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+  /* メディア
+====================================================
+*/
+
+/* スマートフォン 480px
+====================================================
+*/
+
+@media (max-width: 480px) {
+    .header .event-link {
+        top: 110px;
+    }
+
+
+    .main1-title {
+        font-size: 20px;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    .main1-img {
+        top: -190px;
+        margin-bottom: -190px;
+        left: 70px;
+    }
+    
+    .main1-img img {
+        width: 150px;
+    }
+
+
+    .main2-title {
+        font-size: 20px;
+    }
+
+    .main-ja-title {
+        font-size: 15px;
+    }
+
+    #main2 {
+        height: 900px;
+    }
+
+    .main-contents-img1 {
+        top: -900px;
+        margin-bottom: -900px;
+        left: -20%;
+    }
+    
+    .main-contents-img1 img {
+        opacity: 0.7;
+        width: 150px;
+    }
+
+    .main-contents-img2 {
+        top: -3520px;
+        margin-bottom: -5300px;
+        left: 0;
+    }
+    
+    .main-contents-img2 img {
+        opacity: 0.6;
+        width: 120px;
+    }
+
+    .main-contents-img2 {
+        top: -3520px;
+        margin-bottom: -5300px;
+        right: 300px;
+    }
+    
+    .main-contents-img2 img {
+        opacity: 0.6;
+        width: 120px;
+    }
+
+    #main3 {
+        height: 700px;
+        background-image: url('../images/main3-1-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    .main3-contents li img {
+        opacity: 0.6;
+        width: 100px;
+    }
+
+    .main3-contents li:first-child {
+        position: relative;
+        top: -10px;
+        right: 30px;
+    }
+
+    .main3-contents li:nth-child(2) {
+        position: relative;
+        top: -10px;
+        left: 30px;
+    }
+
+    .main3-contents li:last-child {
+        top: 20px;
+        margin-bottom: -100px;
+        left: 100px;
+    }
+    
+    .main3-contents li .main3-contents1-text,
+    .main3-contents li .main3-contents2-text,
+    .main3-contents li .main3-contents3-text {
+        font-size: 8px;
+    }
+    
+    .main3-contents li .main3-contents1-text .big,
+    .main3-contents li .main3-contents2-text .big,
+    .main3-contents li .main3-contents3-text .big {
+        font-size: 13px;
+    }
+    
+    .main3-contents li .main3-contents1-text .small {
+        font-size: 6px;
+    }
+
+    #main4 {
+        height: 800px;
+    }
+
+    .main4-contents1 {
+        display: flex;
+        justify-content: none;
+    }
+
+    .main4-contents1-list1 li {
+        position: relative;
+        left: 75px;
+    }
+
+    .main4-contents1-list1 li img {
+        width: 150px;
+    }
+    
+    .main4-contents1-img1 img {
+        width: 75px;
+    }
+
+    .main4-contents1-list2 li {
+        position: relative;
+        top: 100px;
+        right: 65px;
+    }
+
+    .main4-contents1-list2 li img {
+        width: 150px;
+    }
+    
+
+
+    .main4-inner dt {
+        font-size: 15px;
+    }
+    
+    .main4-inner dd {
+        font-size: 10px;
+        text-indent: 1rem;
+    }
+
+    .main-last {
+        height: 2300px;
+    }
+
+    .opening-title {
+        font-size: 15px;
+    }
+
+    .opening-inner-title {
+        font-size: 13px;
+    }
+
+    .opening-inner-text {
+        font-size: 10px;
+    }
+
+    .news-title {
+        font-size: 15px;
+    }
+
+
+    .news-inner-title {
+        font-size: 13px;
+    }
+
+    .news-inner-text {
+        font-size: 10px;
+    }
+
+    .news-add-inner {
+        padding: 3px 6px;
+    }
+
+    .news-add-inner-text {
+        font-size: 10px;
+    }
+
+    #form-btn a {
+        font-size: 13px;
+        padding: 15px 20px;
+        margin: 20px auto 40px auto;
+    }
+
+
+
+    .parallelogram1 {
+        height: 500px;
+        top: 300px;
+    }
+    
+    .parallelogram2 {
+        height: 400px;
+        top: 1250px;
+    }
+
+
+    .diagonal-line.left {
+        top: 622px;
+      }
+    
+      .diagonal-line.right {
+        top: 622px;
+      }
+
+    .footer {
+        position: relative;
+        top: 4850px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* アイパッド 1024px
+====================================================
+*/
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .header .event-link {
+        top: 110px;
+    }
+
+
+    .main1-title {
+        font-size: 25px;
+        text-align: left;
+        margin-left: 60px;
+    }
+
+    .main1-img {
+        top: -190px;
+        margin-bottom: -190px;
+        left: 130px;
+    }
+    
+    .main1-img img {
+        width: 300px;
+    }
+
+
+    .main2-title {
+        font-size: 25px;
+    }
+
+    .main-ja-title {
+        font-size: 15px;
+    }
+
+    #main2 {
+        height: 1200px;
+    }
+
+    .main2-bottom {
+        padding-top: 40px;
+    }
+
+    .main-contents-img1 {
+        top: -1100px;
+        margin-bottom: -1100px;
+        left: -30%;
+    }
+    
+    .main-contents-img1 img {
+        opacity: 0.7;
+        width: 200px;
+    }
+
+    .main-contents-img2 {
+        top: -3520px;
+        margin-bottom: -5300px;
+        left: 0;
+    }
+    
+    .main-contents-img2 img {
+        opacity: 0.6;
+        width: 120px;
+        margin-top: -200px;
+        margin-left: 60px;
+        transform: scale(1.5);
+    }
+
+    .main-contents-img2 {
+        top: -4600px;
+        margin-bottom: -5300px;
+        right: 300px;
+    }
+    
+    .main-contents-img2 img {
+        opacity: 0.6;
+        width: 120px;
+    }
+
+    #main3 {
+        height: 900px;
+        background-image: url('../images/main3-2-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    .main3-contents li img {
+        opacity: 0.6;
+        width: 250px;
+    }
+
+    .main3-contents li:first-child {
+        position: relative;
+        top: -10px;
+        right: 30px;
+    }
+
+    .main3-contents li:nth-child(2) {
+        position: relative;
+        top: -10px;
+        left: 30px;
+    }
+
+    .main3-contents li:last-child {
+        top: -80px;
+        margin-bottom: -100px;
+        left: 250px;
+    }
+    
+    .main3-contents li .main3-contents1-text,
+    .main3-contents li .main3-contents2-text,
+    .main3-contents li .main3-contents3-text {
+        font-size: 15px;
+    }
+    
+    .main3-contents li .main3-contents1-text .big,
+    .main3-contents li .main3-contents2-text .big,
+    .main3-contents li .main3-contents3-text .big {
+        font-size: 17px;
+    }
+    
+    .main3-contents li .main3-contents1-text .small {
+        font-size: 13px;
+    }
+
+    #main4 {
+        height: 900px;
+    }
+
+    .main4-contents1 {
+        display: flex;
+        justify-content: none;
+    }
+
+    .main4-contents1-list1 li {
+        position: relative;
+        left: 60px;
+    }
+
+    .main4-contents1-list1 li img {
+        width: 230px;
+    }
+    
+    .main4-contents1-img1 img {
+        width: 90px;
+    }
+
+    .main4-contents1-list2 li {
+        position: relative;
+        top: 100px;
+        right: 60px;
+    }
+
+    .main4-contents1-list2 li img {
+        width: 230px;
+    }
+    
+
+
+    .main4-inner dt {
+        font-size: 20px;
+    }
+    
+    .main4-inner dd {
+        font-size: 15px;
+        text-indent: 9rem;
+    }
+
+    .main-last {
+        height: 3000px;
+    }
+
+    .opening-title {
+        font-size: 20px;
+    }
+
+    .opening-inner-title {
+        font-size: 18px;
+    }
+
+    .opening-inner-text {
+        font-size: 15px;
+    }
+
+    .news-title {
+        font-size: 20px;
+    }
+
+
+    .news-inner-title {
+        font-size: 18px;
+    }
+
+    .news-inner-text {
+        font-size: 15px;
+    }
+
+    .news-add-inner {
+        padding: 5px 8px;
+    }
+
+    .news-add-inner-text {
+        font-size: 15px;
+    }
+
+    #form-btn a {
+        font-size: 18px;
+        padding: 15px 20px;
+        margin: 20px auto 40px auto;
+    }
+
+
+
+    .parallelogram1 {
+        height: 500px;
+        top: 450px;
+    }
+    
+    .parallelogram2 {
+        height: 400px;
+        top: 1700px;
+    }
+
+
+    .diagonal-line.left {
+        top: 622px;
+      }
+    
+      .diagonal-line.right {
+        top: 622px;
+      }
+
+    .footer {
+        position: relative;
+        top: 5650px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* アイパッド大の中 1280px
+====================================================
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .header .event-link {
+        top: 110px;
+    }
+
+
+    .main1-title {
+        font-size: 25px;
+        text-align: left;
+        margin-left: 60px;
+    }
+
+    .main1-img {
+        top: -190px;
+        margin-bottom: -190px;
+        left: 150px;
+    }
+    
+    .main1-img img {
+        width: 300px;
+    }
+
+
+    .main2-title {
+        font-size: 25px;
+    }
+
+    .main-ja-title {
+        font-size: 15px;
+    }
+
+    #main2 {
+        height: 1200px;
+    }
+
+    .main2-bottom {
+        padding-top: 40px;
+    }
+
+    .main-contents-img1 {
+        top: -1100px;
+        margin-bottom: -1100px;
+        left: -30%;
+    }
+    
+    .main-contents-img1 img {
+        opacity: 0.7;
+        width: 200px;
+    }
+
+    .main-contents-img2 {
+        top: -3520px;
+        margin-bottom: -5300px;
+        left: 0;
+    }
+    
+    .main-contents-img2 img {
+        opacity: 0.6;
+        width: 120px;
+        margin-top: -200px;
+        margin-left: 60px;
+        transform: scale(1.5);
+    }
+
+    .main-contents-img2 {
+        top: -4600px;
+        margin-bottom: -5300px;
+        right: 300px;
+    }
+    
+    .main-contents-img2 img {
+        opacity: 0.6;
+        width: 120px;
+    }
+
+    #main3 {
+        height: 900px;
+        background-image: url('../images/main3-2-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    .main3-contents li img {
+        opacity: 0.6;
+        width: 250px;
+    }
+
+    .main3-contents li:first-child {
+        position: relative;
+        top: -10px;
+        right: 30px;
+    }
+
+    .main3-contents li:nth-child(2) {
+        position: relative;
+        top: -10px;
+        left: 30px;
+    }
+
+    .main3-contents li:last-child {
+        top: -80px;
+        margin-bottom: -100px;
+        left: 310px;
+    }
+    
+    .main3-contents li .main3-contents1-text,
+    .main3-contents li .main3-contents2-text,
+    .main3-contents li .main3-contents3-text {
+        font-size: 15px;
+    }
+    
+    .main3-contents li .main3-contents1-text .big,
+    .main3-contents li .main3-contents2-text .big,
+    .main3-contents li .main3-contents3-text .big {
+        font-size: 17px;
+    }
+    
+    .main3-contents li .main3-contents1-text .small {
+        font-size: 13px;
+    }
+
+    #main4 {
+        height: 900px;
+    }
+
+    .main4-contents1 {
+        display: flex;
+        justify-content: none;
+    }
+
+    .main4-contents1-list1 li {
+        position: relative;
+        left: 60px;
+    }
+
+    .main4-contents1-list1 li img {
+        width: 230px;
+    }
+    
+    .main4-contents1-img1 img {
+        width: 90px;
+    }
+
+    .main4-contents1-list2 li {
+        position: relative;
+        top: 100px;
+        right: 60px;
+    }
+
+    .main4-contents1-list2 li img {
+        width: 230px;
+    }
+    
+
+
+    .main4-inner dt {
+        font-size: 20px;
+    }
+    
+    .main4-inner dd {
+        font-size: 15px;
+        text-indent: 9rem;
+    }
+
+    .main-last {
+        height: 3100px;
+    }
+
+    .opening-title {
+        font-size: 20px;
+    }
+
+    .opening-inner-title {
+        font-size: 18px;
+    }
+
+    .opening-inner-text {
+        font-size: 15px;
+    }
+
+    .news-title {
+        font-size: 20px;
+    }
+
+
+    .news-inner-title {
+        font-size: 18px;
+    }
+
+    .news-inner-text {
+        font-size: 15px;
+    }
+
+    .news-add-inner {
+        padding: 5px 8px;
+    }
+
+    .news-add-inner-text {
+        font-size: 15px;
+    }
+
+    #form-btn a {
+        font-size: 18px;
+        padding: 15px 20px;
+        margin: 20px auto 40px auto;
+    }
+
+
+
+    .parallelogram1 {
+        height: 500px;
+        top: 450px;
+    }
+    
+    .parallelogram2 {
+        height: 400px;
+        top: 1700px;
+    }
+
+
+    .diagonal-line.left {
+        top: 622px;
+      }
+    
+      .diagonal-line.right {
+        top: 622px;
+      }
+
+    .footer {
+        position: relative;
+        top: 5650px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* アイパッド大 1440px
+====================================================
+*/
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .header .event-link {
+        top: 110px;
+    }
+
+
+    .main1-title {
+        font-size: 25px;
+        text-align: left;
+        margin-left: 60px;
+    }
+
+    .main1-img {
+        top: -190px;
+        margin-bottom: -190px;
+        left: 150px;
+    }
+    
+    .main1-img img {
+        width: 300px;
+    }
+
+
+    .main2-title {
+        font-size: 25px;
+    }
+
+    .main-ja-title {
+        font-size: 15px;
+    }
+
+    #main2 {
+        height: 1200px;
+    }
+
+    .main2-bottom {
+        padding-top: 40px;
+    }
+
+    .main-contents-img1 {
+        top: -1100px;
+        margin-bottom: -1100px;
+        left: -30%;
+    }
+    
+    .main-contents-img1 img {
+        opacity: 0.7;
+        width: 200px;
+    }
+
+    .main-contents-img2 {
+        top: -5300px;
+        margin-bottom: -5300px;
+        left: 100px;
+    }
+    
+    .main-contents-img2 img {
+        opacity: 0.6;
+        width: 240px;
+    }
+
+    #main3 {
+        height: 900px;
+        background-image: url('../images/main3-2-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    .main3-contents li img {
+        opacity: 0.6;
+        width: 250px;
+    }
+
+    .main3-contents li:first-child {
+        position: relative;
+        top: -10px;
+        right: 30px;
+    }
+
+    .main3-contents li:nth-child(2) {
+        position: relative;
+        top: -10px;
+        left: 30px;
+    }
+
+    .main3-contents li:last-child {
+        top: -80px;
+        margin-bottom: -100px;
+        left: 350px;
+    }
+    
+    .main3-contents li .main3-contents1-text,
+    .main3-contents li .main3-contents2-text,
+    .main3-contents li .main3-contents3-text {
+        font-size: 15px;
+    }
+    
+    .main3-contents li .main3-contents1-text .big,
+    .main3-contents li .main3-contents2-text .big,
+    .main3-contents li .main3-contents3-text .big {
+        font-size: 17px;
+    }
+    
+    .main3-contents li .main3-contents1-text .small {
+        font-size: 13px;
+    }
+
+    #main4 {
+        height: 900px;
+    }
+
+    .main4-contents1 {
+        display: flex;
+        justify-content: none;
+    }
+
+    .main4-contents1-list1 li {
+        position: relative;
+        left: 60px;
+    }
+
+    .main4-contents1-list1 li img {
+        width: 230px;
+    }
+    
+    .main4-contents1-img1 img {
+        width: 90px;
+    }
+
+    .main4-contents1-list2 li {
+        position: relative;
+        top: 100px;
+        right: 60px;
+    }
+
+    .main4-contents1-list2 li img {
+        width: 230px;
+    }
+    
+
+
+    .main4-inner dt {
+        font-size: 20px;
+    }
+    
+    .main4-inner dd {
+        font-size: 15px;
+        text-indent: 9rem;
+    }
+
+    .main-last {
+        height: 3500px;
+    }
+
+    .opening-title {
+        font-size: 20px;
+    }
+
+    .opening-inner-title {
+        font-size: 18px;
+    }
+
+    .opening-inner-text {
+        font-size: 15px;
+    }
+
+    .news-title {
+        font-size: 20px;
+    }
+
+
+    .news-inner-title {
+        font-size: 18px;
+    }
+
+    .news-inner-text {
+        font-size: 15px;
+    }
+
+    .news-add-inner {
+        padding: 5px 8px;
+    }
+
+    .news-add-inner-text {
+        font-size: 15px;
+    }
+
+    #form-btn a {
+        font-size: 18px;
+        padding: 15px 20px;
+        margin: 20px auto 40px auto;
+    }
+
+
+
+    .parallelogram1 {
+        height: 500px;
+        top: 450px;
+    }
+    
+    .parallelogram2 {
+        height: 400px;
+        top: 1700px;
+    }
+
+
+    .diagonal-line.left {
+        top: 622px;
+      }
+    
+      .diagonal-line.right {
+        top: 622px;
+      }
+
+    .footer {
+        position: relative;
+        top: 5650px;
+    }
+}
+
+
+
+
+
+
+
+/* PC大の中 1600px
+===================================================
+*/
+
+@media (min-width: 1441px) and (max-width: 1600px) {
+    .header .event-link {
+        top: 110px;
+    }
+
+
+    .main1-title {
+        font-size: 25px;
+        text-align: left;
+        margin-left: 60px;
+    }
+
+    .main1-img {
+        top: -190px;
+        margin-bottom: -190px;
+        left: 150px;
+    }
+    
+    .main1-img img {
+        width: 400px;
+    }
+
+
+    .main2-title {
+        font-size: 25px;
+    }
+
+    .main-ja-title {
+        font-size: 15px;
+    }
+
+    #main2 {
+        height: 1200px;
+    }
+
+    .main2-bottom {
+        padding-top: 40px;
+    }
+
+    .main-contents-img1 {
+        top: -1100px;
+        margin-bottom: -1100px;
+        left: -30%;
+    }
+    
+    .main-contents-img1 img {
+        opacity: 0.7;
+        width: 200px;
+    }
+
+    .main-contents-img2 {
+        top: -5300px;
+        margin-bottom: -5300px;
+        left: 20px;
+    }
+    
+    .main-contents-img2 img {
+        opacity: 0.6;
+        width: 240px;
+    }
+
+    #main3 {
+        height: 900px;
+        background-image: url('../images/main3-2-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    .main3-contents li img {
+        opacity: 0.6;
+        width: 250px;
+    }
+
+    .main3-contents li:first-child {
+        position: relative;
+        top: -10px;
+        right: 30px;
+    }
+
+    .main3-contents li:nth-child(2) {
+        position: relative;
+        top: -10px;
+        left: 30px;
+    }
+
+    .main3-contents li:last-child {
+        top: -80px;
+        margin-bottom: -100px;
+        left: 400px;
+    }
+    
+    .main3-contents li .main3-contents1-text,
+    .main3-contents li .main3-contents2-text,
+    .main3-contents li .main3-contents3-text {
+        font-size: 15px;
+    }
+    
+    .main3-contents li .main3-contents1-text .big,
+    .main3-contents li .main3-contents2-text .big,
+    .main3-contents li .main3-contents3-text .big {
+        font-size: 17px;
+    }
+    
+    .main3-contents li .main3-contents1-text .small {
+        font-size: 13px;
+    }
+
+    #main4 {
+        height: 900px;
+    }
+
+    .main4-contents1 {
+        display: flex;
+        justify-content: none;
+    }
+
+    .main4-contents1-list1 li {
+        position: relative;
+        left: 60px;
+    }
+
+    .main4-contents1-list1 li img {
+        width: 230px;
+    }
+    
+    .main4-contents1-img1 img {
+        width: 90px;
+    }
+
+    .main4-contents1-list2 li {
+        position: relative;
+        top: 100px;
+        right: 60px;
+    }
+
+    .main4-contents1-list2 li img {
+        width: 230px;
+    }
+    
+
+
+    .main4-inner dt {
+        font-size: 20px;
+    }
+    
+    .main4-inner dd {
+        font-size: 15px;
+        text-indent: 9rem;
+    }
+
+    .main-last {
+        height: 3500px;
+    }
+
+    .opening-title {
+        font-size: 20px;
+    }
+
+    .opening-inner-title {
+        font-size: 18px;
+    }
+
+    .opening-inner-text {
+        font-size: 15px;
+    }
+
+    .news-title {
+        font-size: 20px;
+    }
+
+
+    .news-inner-title {
+        font-size: 18px;
+    }
+
+    .news-inner-text {
+        font-size: 15px;
+    }
+
+    .news-add-inner {
+        padding: 5px 8px;
+    }
+
+    .news-add-inner-text {
+        font-size: 15px;
+    }
+
+    #form-btn a {
+        font-size: 18px;
+        padding: 15px 20px;
+        margin: 20px auto 40px auto;
+    }
+
+
+
+    .parallelogram1 {
+        height: 500px;
+        top: 450px;
+    }
+    
+    .parallelogram2 {
+        height: 400px;
+        top: 1700px;
+    }
+
+
+    .diagonal-line.left {
+        top: 622px;
+      }
+    
+      .diagonal-line.right {
+        top: 622px;
+      }
+
+    .footer {
+        position: relative;
+        top: 5650px;
+    }
+}
+
+
+
+
+
+
+
+
+/* PC大の大 1920px
+===================================================
+*/
+
+@media (min-width: 1601px) and (max-width: 1920px) {
+    .header .event-link {
+        top: 80px;
+    }
+
+
+    .main1-title {
+        font-size: 30px;
+        margin-left: 60px;
+    }
+
+    .main1-img {
+        top: -230px;
+        margin-bottom: -190px;
+        left: 450px;
+    }
+    
+    .main1-img img {
+        width: 500px;
+    }
+
+
+    .main2-title {
+        font-size: 30px;
+    }
+
+    .main-ja-title {
+        font-size: 15px;
+    }
+
+    #main2 {
+        height: 1200px;
+    }
+
+    .main2-bottom {
+        padding-top: 40px;
+    }
+
+    .main-contents-img1 {
+        top: -1200px;
+        margin-bottom: -1100px;
+        left: -30%;
+    }
+    
+    .main-contents-img1 img {
+        opacity: 0.7;
+        width: 300px;
+    }
+
+    .main-contents-img2 {
+        top: -5300px;
+        margin-bottom: -5300px;
+        left: 20px;
+    }
+    
+    .main-contents-img2 img {
+        opacity: 0.6;
+        width: 240px;
+    }
+
+
+    .main-contents-img5 {
+        top: -230px;
+        left: 1300px;
+    }
+    
+    .main-contents-img5 img {
+        opacity: 0.6;
+    }
+
+    #main3 {
+        height: 900px;
+        background-image: url('../images/main3-2-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    .main3-contents li img {
+        opacity: 0.6;
+        width: 250px;
+    }
+
+    .main3-contents li:first-child {
+        position: relative;
+        top: -10px;
+        right: 30px;
+    }
+
+    .main3-contents li:nth-child(2) {
+        position: relative;
+        top: -10px;
+        left: 30px;
+    }
+
+    .main3-contents li:last-child {
+        top: -120px;
+        margin-bottom: -100px;
+        left: 420px;
+    }
+    
+    .main3-contents li .main3-contents1-text,
+    .main3-contents li .main3-contents2-text,
+    .main3-contents li .main3-contents3-text {
+        font-size: 20px;
+    }
+    
+    .main3-contents li .main3-contents1-text .big,
+    .main3-contents li .main3-contents2-text .big,
+    .main3-contents li .main3-contents3-text .big {
+        font-size: 22px;
+    }
+    
+    .main3-contents li .main3-contents1-text .small {
+        font-size: 18px;
+    }
+
+    #main4 {
+        height: 1000px;
+    }
+
+    .main4-contents1 {
+        display: flex;
+        justify-content: none;
+    }
+
+    .main4-contents1-list1 li {
+        position: relative;
+        left: 30px;
+    }
+
+    .main4-contents1-list1 li img {
+        width: 300px;
+    }
+    
+    .main4-contents1-img1 img {
+        width: 90px;
+    }
+
+    .main4-contents1-list2 li {
+        position: relative;
+        top: 100px;
+        right: 30px;
+    }
+
+    .main4-contents1-list2 li img {
+        width: 300px;
+    }
+    
+
+
+    .main4-inner dt {
+        font-size: 24px;
+    }
+    
+    .main4-inner dd {
+        font-size: 15px;
+        text-indent: 9rem;
+    }
+
+    .main-last {
+        height: 3500px;
+    }
+
+    .opening-title {
+        font-size: 24px;
+    }
+
+    .opening-inner-title {
+        font-size: 18px;
+    }
+
+    .opening-inner-text {
+        font-size: 15px;
+    }
+
+    .news-title {
+        font-size: 24px;
+    }
+
+
+    .news-inner-title {
+        font-size: 18px;
+    }
+
+    .news-inner-text {
+        font-size: 15px;
+    }
+
+    .news-add-inner {
+        padding: 5px 8px;
+    }
+
+    .news-add-inner-text {
+        font-size: 15px;
+    }
+
+    #form-btn a {
+        font-size: 18px;
+        padding: 15px 20px;
+        margin: 20px auto 40px auto;
+    }
+
+
+
+    .parallelogram1 {
+        height: 500px;
+        top: 450px;
+    }
+    
+    .parallelogram2 {
+        height: 400px;
+        top: 2100px;
+    }
+
+
+    .diagonal-line.left {
+        top: 622px;
+      }
+    
+      .diagonal-line.right {
+        top: 622px;
+      }
+
+    .footer {
+        position: relative;
+        top: 4000px;
+    }
+}
+
+
