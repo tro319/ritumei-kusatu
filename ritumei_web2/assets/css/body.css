@@ -652,6 +652,11 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
     .header .event-link {
         top: 100px;
     }
